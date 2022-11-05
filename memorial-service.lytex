@@ -31,6 +31,11 @@
   \ifodd\value{page}\else\hbox{}\newpage\fi
 }
 
+\newcommand*\Priest{\textbf{Priest:}}
+\newcommand*\PriestGR{\textbf{Ἱερεύς:}}  % used to not used the colon, like this: Ἱερεύς·
+\newcommand*\People{\textbf{People:}}
+\newcommand*\PeopleGR{\textbf{Λαός:}} % used to not used the colon, like this: Λαός·
+
 \newenvironment{greekenglish}[1]
 {\begin{multicols}{2}[]
 \selectlanguage{greek}
@@ -63,14 +68,18 @@
 
 %% \maketitle
 \begin{center}
-  {\large Memorial Service}\\
-  {\small 5 November 2022}
+  {\Large\textbf{Memorial Service}}\\
+  {\small DRAFT: 5 November 2022}
+\end{center}
+
+\begin{center}
+  EVLOGITARIA
 \end{center}
 
 \begin{englishgreek}{
-People:  Blessed are You, O Lord, teach me Your commandments.
+\People\  Blessed are You, O Lord, teach me Your commandments.
 }
-Λαός· Εὐλογητός εἶ, Κύριε δίδαξόν με τά δικαιώματά σου.
+\PeopleGR\ Εὐλογητός εἶ, Κύριε δίδαξόν με τά δικαιώματά σου.
 \end{englishgreek}\vspace{-1.5em}
 \begin{englishgreek}{
 The choir of Saints has found the fountain of life and the door of Paradise. May I also find the way through repentance. I am the lost sheep: O Savior, call me back and save me.
@@ -79,9 +88,9 @@ The choir of Saints has found the fountain of life and the door of Paradise. May
 \end{englishgreek}
 
 \begin{englishgreek}{
-People:  Blessed are You, O Lord, teach me Your commandments.
+\People\  Blessed are You, O Lord, teach me Your commandments.
 }
-Λαός· Εὐλογητός εἶ, Κύριε δίδαξόν με τά δικαιώματά σου.
+\PeopleGR\ Εὐλογητός εἶ, Κύριε δίδαξόν με τά δικαιώματά σου.
 \end{englishgreek}\vspace{-1.5em}
 \begin{englishgreek}{
     Of old, You created me from nothing and honored me with Your divine image. But when I disobeyed Your commandment, You returned me to the earth from which I was taken. Lead me back again to Your likeness, so that the ancient beauty may be refashioned.
@@ -89,10 +98,11 @@ People:  Blessed are You, O Lord, teach me Your commandments.
   Ὁ πάλαι μέν, ἐκ μη ὄντων πλάσας με, καί εἰκόνι σου θείᾳ τιμήσας, παραβάσει ἐντολῆς δέ πᾶλιν με ἐπιστρέψας, εἰς γῆν ἐξ ἧς ἐλήφθην· ἐις τό καθ᾿ ὁμοίωσιν ἐπανάγαγε, τό ἀρχαῖον κάλλος ἀναμορφώσασθαι.
 \end{englishgreek}
 
+\clearpage
 \begin{englishgreek}{
-People:  Blessed are You, O Lord, teach me Your commandments.
+\People\  Blessed are You, O Lord, teach me Your commandments.
 }
-Λαός· Εὐλογητός εἶ, Κύριε δίδαξόν με τά δικαιώματά σου.
+\PeopleGR\ Εὐλογητός εἶ, Κύριε δίδαξόν με τά δικαιώματά σου.
 \end{englishgreek}\vspace{-1.5em}
 \begin{englishgreek}{
     I am an image of Your ineffable glory, though I bear the scars of my transgressions. Take pity on me, the work of Your hands, Master, and cleanse me by Your compassion. Grant me the desired homeland for which I long, making me again a citizen of Paradise.
@@ -100,11 +110,10 @@ People:  Blessed are You, O Lord, teach me Your commandments.
   Εἰκών ἐιμί τῆς ἀρρήτου δόξης σου, εἰ καί στίγματα φέρω πταισμάτων· οἰκτείρησον τό σόν πλάσμα Δέσποτα, καί καθάρισον σῇ΄εὐσπλαχνίᾳ· καί τήν ποθεινήν πατρίδα παράσχου μοι, Παραδείσου πᾶλιν ποιῶν πολίτην μέ.
 \end{englishgreek}
 
-\clearpage
 \begin{englishgreek}{
-People:  Blessed are You, O Lord, teach me Your commandments.
+\People\  Blessed are You, O Lord, teach me Your commandments.
 }
-Λαός· Εὐλογητός εἶ, Κύριε δίδαξόν με τά δικαιώματά σου.
+\PeopleGR\ Εὐλογητός εἶ, Κύριε δίδαξόν με τά δικαιώματά σου.
 \end{englishgreek}\vspace{-1.5em}
 \begin{englishgreek}{
     Give rest, O God, to Your servant(s), and place him (her, them) in Paradise where the choirs of the Saints and the righteous, O Lord, will shine as the stars of heaven. To Your departed servant(s) give rest, O Lord, overlooking all his (her, their) offenses.
@@ -112,10 +121,11 @@ People:  Blessed are You, O Lord, teach me Your commandments.
   Ἀνάπαυσον ὁ Θεός, τόν δοῦλον (τήν δούλην, τούς δούλους σου) σου καί κατάξον αὐτόν (αὐτήν, αυτούς) ἐν παραδείσῳ, ὅπου χοροί τῶν ἁγίων, Κύριε καί οἱ δίκαιοι ἐκλάμψουσιν ὡς φωστῆρες· (τους κεκοιμημένους δούλους σου), τόν κεκοιμημένον δοῦλον (τήν κεκοιμημένην δούλην) σου ἀνάπαυσον, παρορῶν, αὐτοῦ (αὐτῆς, αυτών) πάντα τά ἐγκλήματα.
 \end{englishgreek}
 
+\clearpage
 \begin{englishgreek}{
-People:  Glory to the Father and the Son and the Holy Spirit.
+\People\  Glory to the Father and the Son and the Holy Spirit.
 }
-Λαός· Δόξα Πατρί καί Υἱῷ καί Ἁγίῳ Πνεύματι.
+\PeopleGR\ Δόξα Πατρί καί Υἱῷ καί Ἁγίῳ Πνεύματι.
 \end{englishgreek}\vspace{-1.5em}
 \begin{englishgreek}{
     Let us devoutly praise the threefold radiance of the one God as we sing: Holy are You, the Father without beginning, the co-eternal Son, and the divine Spirit. Illumine us who worship You in faith and deliver us from the eternal fire.
@@ -124,9 +134,9 @@ People:  Glory to the Father and the Son and the Holy Spirit.
 \end{englishgreek}
 
 \begin{englishgreek}{
-People:  Now and forever and to the ages of ages. Amen.
+\People\  Now and forever and to the ages of ages. Amen.
 }
-Λαός· Καί νῦν καί ἀεί καί εἰς τούς αἰῶνας τῶν ἀιώνων. Ἀμήν.
+\PeopleGR\ Καί νῦν καί ἀεί καί εἰς τούς αἰῶνας τῶν ἀιώνων. Ἀμήν.
 \end{englishgreek}\vspace{-1.5em}
 \begin{englishgreek}{
     Rejoice, gracious Lady, who gave birth to God in the flesh for the salvation of all, and through whom the human race has found salvation. Through you, pure and blessed Theotokos, may we find Paradise.
@@ -135,18 +145,199 @@ People:  Now and forever and to the ages of ages. Amen.
 \end{englishgreek}
 
 \begin{englishgreek}{
-    People:  Alleluia. Alleluia. Alleluia. Glory to You O God. (3)
+    \People\  Alleluia. Alleluia. Alleluia. Glory to You O God. (3)
   }
-  Λαός· Ἀλληλούϊα, Ἀλληλούϊα, Ἀλληλούϊα, δόξα σοι ὁ Θεός (γ’).
+  \PeopleGR\ Ἀλληλούϊα, Ἀλληλούϊα, Ἀλληλούϊα, δόξα σοι ὁ Θεός (γ’).
 \end{englishgreek}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%%   KONTAKION
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
+\clearpage
+\begin{center}
+  KONTAKION
+\end{center}
 
 \begin{englishgreek}{
-}
+\People\  With the Saints give rest, O Christ, to the soul(s) of Your servant(s) where there is no pain, no sorrow, no sighing, but life everlasting.
+  }
+  \PeopleGR\ Μετὰ τον Ἅγιον ἀνάπαυσον, Χριστέ, τήν ψυχήν τοϋ δούλου (τῆς δούλης) σου, ένθα ούκ έστι πόνος, ού λύπη, ού στεναγμός, άλλά ζώή άτελεύτητος.
+\end{englishgreek}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%%   TROPARIA
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+  TRISAGION HYMNS
+\end{center}
+
+\begin{englishgreek}{
+    \People\  Among the spirits of the righteous perfected in faith, give rest, O Savior, to the soul(s) of Your servant, keeping it (them) in the blessed life which is from You, O loving One.
+  }
+  \PeopleGR\ Μετὰ πνευμάτων δικαίων τετελειωμένων, τὴν ψυχὴν τοῦ δούλου (τῆς δούλης, τάς ψυχάς τῶν δούλων) σου, Σῶτερ, ἀνάπαυσον, φυλάττων αὐτὴν (αὐτούς), εἰς τὴν μακαρίαν ζωὴν, τὴν παρὰ σοί, φιλάνθρωπε.
+\end{englishgreek}
+
+\begin{englishgreek}{
+    \People\  In your place of rest, O Lord, where all Your saints repose, give rest also to the soul of Your servant, for You alone are immortal.
+  }
+  \PeopleGR\ Εἰς τὴν κατάπαυσίν σου, Κύριε, ὅπου πάντες οἱ Ἅγιοί σου ἀναπαύονται, ἀνάπαυσον καὶ τὴν ψυχὴν τοῦ δούλου (τῆς δούλης) σου (τας ψυχάς των δούλων σου), ὅτι μόνος ὑπάρχεις ἀθάνατος.
+\end{englishgreek}
+
+\begin{englishgreek}{
+    \People\  Glory to the Father and the Son and the Holy Spirit.
+  }
+  \PeopleGR\ Δόξα Πατρὶ καὶ Υἱῷ καὶ Ἁγίῳ Πνεύματι.
+\end{englishgreek}
+
+\begin{englishgreek}{
+    \People\  You are our God who descended into Hades and loosened the pains of those who were held captive. Grant rest also, O Savior, to the soul of Your servant.
+  }
+  \PeopleGR\ Σὺ εἶ ὁ Θεὸς ἡμῶν, ὁ καταβὰς εἰς Ἅδην, καὶ τὰς ὀδύνας λύσας τῶν πεπεδημένων· αὐτὸς καὶ τὴν ψυχὴν τοῦ δούλου (τῆς δούλης) σου (τας ψυχάς των δούλων σου), Σῶτερ, ἀνάπαυσον.
+\end{englishgreek}
+
+\clearpage
+\begin{englishgreek}{
+    \People\  Now and forever and to the ages of ages. Amen.
+  }
+  \PeopleGR\ Καὶ νῦν καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.
+\end{englishgreek}
+
+\begin{englishgreek}{
+    \People\  You the only pure and spotless Virgin, who ineffably gave birth to God, intercede for mercy and forgiveness of the soul of your servant(s).
+  }
+  \PeopleGR\ Ἡ μόνη ἁγνὴ καὶ ἄχραντος Παρθένος, ἡ Θεόν ἀφράστως κυήσασα, πρέσβευε ὑπὲρ τοῦ ἐλεηθήναι και συγχωρηθήναι τὴν ψυχὴν τοῦ δούλου (τῆς δούλης) σου (τάς ψυχάς τῶν δούλων σου).
+\end{englishgreek}
+
+\vspace{1em}
+\hrule
+\vspace{1em}
+
+\begin{englishgreek}{
+    \Priest\  Have mercy upon us, O God, according to Your great mercy; we pray to You, hear us and have mercy.
+  }
+  \PriestGR\ Ἐλέησον ἡμᾶς ὁ Θεός, κατὰ τὸ μέγα ἔλεός σου, δεόμεθά σου, ἐπάκουσον καὶ ἐλέησον.
+\end{englishgreek}
+\begin{englishgreek}{
+    \People\  Lord, have mercy. (3)
+  }
+  \PeopleGR\ Κύριε, ἐλέησον (γ’).
+\end{englishgreek}
+
+\begin{englishgreek}{
+    \Priest\  Again we pray for the repose of the soul(s) of the departed servant(s) of God (Name) and for the forgiveness of all his (her, their) sins, both voluntary and involuntary.
+  }
+  \PriestGR\ Ἔτι δεόμεθα ὑπὲρ ἀναπαύσεως τῆς ψυχῆς τοῦ κεκοιμημένου δούλου (τῆς κεκοιμημένης δούλης) (των κεκοιμημένων δούλων), τοῦ Θεοῦ καὶ ὑπὲρ τοῦ συγχωρηθῆναι αὐτῷ (αὐτῇ, αὐτοῖς) πᾶν πλημμέλημα ἑκούσιόν τε καὶ ἀκούσιον.
+\end{englishgreek}
+\begin{englishgreek}{
+    \People\  Lord, have mercy. (3)
+  }
+  \PeopleGR\ Κύριε, ἐλέησον (γ’).
+\end{englishgreek}
+
+\clearpage
+\begin{englishgreek}{
+    \Priest\  May the Lord God grant his (her, their) soul(s) rest where the righteous repose. For the mercies of God, the kingdom of heaven, and the forgiveness of his (her, their) sins. 
+  }
+  \PriestGR\ Ὅπως Κύριος ὁ Θεὸς τάξῃ τὴν ψυχὴν αὐτοῦ (αὐτῆς, τὰς ψυχᾶς) ἔνθα οἱ δίκαιοι ἀναπαύονται, τὰ ἐλέη τοῦ Θεοῦ, τὴν βασιλείαν τῶν οὐρανῶν, καὶ ἄφεσιν τῶν αὐτοῦ (αὐτῆς, αὐτῶν) ἁμαρτιῶν, παρὰ Χριστῷ τῷ ἀθανάτῳ Βασιλεῖ καὶ Θεῷ ἡμῶν αἰτησώμεθα.
+\end{englishgreek}
+\begin{englishgreek}{
+    \People\  Grant this, O Lord.
+  }
+  \PeopleGR\ Παράσχου Κύριε.
+\end{englishgreek}
+
+\begin{englishgreek}{
+    \Priest\  Let us pray to the Lord
+  }
+  \PriestGR\ Τοῦ Κυρίου δεηθῶμεν.
+\end{englishgreek}
+\begin{englishgreek}{
+    \People\  Lord, have mercy.
+  }
+  \PeopleGR\ Κύριε, ἐλέησον
+\end{englishgreek}
+
+\begin{englishgreek}{
+    \Priest\  O God of spirits and of all flesh, You trampled upon death and abolished the power of the devil, giving life to Your world. Give rest to the soul(s) of Your departed servant(s) (Name) in a place of light, in a place of green pasture, in a place of refreshment, from where pain, sorrow, and sighing have fled away. As a good and loving God, forgive every sin he (she, they) has (have) committed in word, deed, or thought, for there is no one who lives and does not sin. You alone are without sin. Your righteousness is an everlasting righteousness, and Your word is truth.
+  }
+  \PriestGR\ Ὁ Θεὸς τῶν πνευμάτων καὶ πάσης σαρκός, ὁ τὸν θάνατον καταπατήσας, τὸν δὲ διάβολον καταργήσας, καὶ ζωὴν τῷ κόσμῳ σου δωρησάμενος· αὐτός, Κύριε, ἀνάπαυσον τὴν ψυχὴν τοῦ κεκοιμημένου δούλου (τῆς κεκοιμημένης δούλης) σου (τας ψυχάς των κεκοιμημένων δούλων σου), ἐν τόπῳ φωτεινῷ, ἐν τόπῳ χλοερῷ, ἐν τόπῳ ἀναψύξεως, ἔνθα ἀπέδρα ὀδύνη, λύπη καὶ στεναγμός. Πᾶν ἁμάρτημα τὸ παρ’ αὐτοῦ (αὐτῆς, αὐτῶν), πραχθὲν ἐν λόγῳ ἢ ἔργῳ ἢ διανοίᾳ, ὡς ἀγαθὸς καὶ φιλάνθρωπος Θεός, συγχώρησον· ὅτι οὐκ ἔστιν ἄνθρωπος, ὃς ζήσεται καὶ οὐχ ἁμαρτήσει· σὺ γὰρ μόνος ἐκτὸς ἁμαρτίας ὑπάρχεις, ἡ δικαιοσύνη σου δικαιοσύνη εἰς τὸν αἰῶνα, καὶ ὁ λόγος σου ἀλήθεια.
+\end{englishgreek}
+\begin{englishgreek}{
+    \Priest\  For You are the resurrection, the life, and the repose of Your departed servant(s) (Name), Christ our God, and to You we offer glory, with Your eternal Father who is without beginning and Your all-holy, good, and life-creating Spirit, now and forever and to the ages of ages.
+  }
+  \PriestGR\ Ὅτι σὺ εἶ ἡ ἀνάστασις, ἡ ζωή, καὶ ἡ ἀνάπαυσις τοῦ κεκοιμημένου δούλου (τῆς κεκοιμημένης δούλης) σου (των κεκοιμημένων δούλων σου), Χριστέ ὁ Θεός ἡμῶν, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, σὺν τῷ ἀνάρχῳ σου Πατρί, καὶ τῷ παναγίῳ καὶ ἀγαθῷ καὶ ζωοποιῷ σου Πνεύματι, νῦν καὶ ἀεί καὶ εἰς τοὺς αἰῶνας τῶν αιώνων.
+\end{englishgreek}\vspace{-1.5em}
+\begin{englishgreek}{
+    \People\  Amen.
+  }
+  \PeopleGR\ Ἀμήν.
+\end{englishgreek}\vspace{-2em}
+\begin{englishgreek}{
+\Priest\  Glory to You, O God, our hope, glory to You.
+  }
+  \PriestGR\ Δόξα σοι ὁ Θεός ἡμῶν, δόξα σοι.
+\end{englishgreek}\vspace{-2em}
+\begin{englishgreek}{
+    Lord of the living and the dead, the immortal King and Risen Christ, our true God, through the intercessions of His all-pure and spotless holy Mother; of the holy, glorious, and praiseworthy Apostles; of our venerable and God-bearing Fathers; of the holy and glorious forefathers Abraham, Isaac, and Jacob; of His holy and righteous friend Lazaros, who lay in the grave four days; and of all the saints; place the soul(s) of His servant(s) (Name), departed from us, in the dwelling place of the righteous; give rest to him (her, them) in the bosom of Abraham; and number him (her, them) among the saints and have mercy on us, as a good God who loves mankind.
+  }
+  Ὁ καὶ νεκρῶν καὶ ζώντων τὴν ἐξουσίαν ἔχων, ὡς ἀθάνατος Βασιλεύς, καὶ ἀναστάς ἐκ νεκρῶν Χριστὸς, ὁ ἀληθινὸς Θεὸς ἡμῶν, ταῖς πρεσβείαις τῆς παναχράντου καὶ παναμώμου ἁγίας αὐτοῦ μητρός· τῶν ἁγίων, ἐνδόξων καὶ πανευφήμων Ἀποστόλων· τῶν ὁσίων καὶ θεοφόρων Πατέρων ἡμῶν· τῶν ἁγίων ἐνδόξων προπατόρων Ἀβραάμ, Ἰσαάκ καὶ Ἰακώβ, τοῦ ἁγίου καὶ δικαίου φίλου αὐτοῦ Λαζάρου τοῦ τετραημέρου, καὶ πάντων τῶν Ἁγίων, τὴν ψυχὴν τοῦ ἐξ ἡμῶν μεταστάντος δούλου (τῆς μεταστάσης δούλης) (τας ψυχάς τῶν ἐξ ἡμῶν μεταστάντων δούλων), αὐτοῦ ἐν σκηναῖς δικαίων τάξαι, ἐν κόλποις Ἀβραάμ ἀναπαύσαι, καὶ μετὰ ἁγίων συναριθμήσαι, ἡμᾶς δὲ ἐλεῆσαι ὡς ἀγαθός καὶ φιλάνθρωπος.
+\end{englishgreek}\vspace{-2.5em}
+\begin{englishgreek}{
+    \People\  Amen.
+  }
+  \PeopleGR\ Ἀμήν.
+\end{englishgreek}
+
+
+\clearpage
+\begin{englishgreek}{
+  \Priest\  May your memory be eternal, brother worthy of blessedness and everlasting memory. (3)  
+  }
+  \PriestGR\ Αἰωνία σου ἡ μνήμη, ἀξιομακάριστε καὶ ἀείμνηστε ἀδελφέ ἡμῶν. (γ΄)
+\end{englishgreek}
+
+\begin{englishgreek}{
+\textbf{For Women} \\
+\Priest\  May your memory be eternal, sister worthy of blessedness and everlasting memory. (3)
+  }
+  \textbf{Ἐπί δέ γυναικός} \\
+\PriestGR\ Αἰωνία σου ἡ μνήμη ἀξιομακάριστος καί ἀείμνηστος ἀδελφή ἡμῶν. (γ΄)
+\end{englishgreek}
+
+\begin{englishgreek}{
+\textbf{For Many} \\
+\Priest\  May their memories be eternal, sisters and brothers worthy of blessedness and everlasting memory. (3)
+  }
+  \textbf{Ἐπί δέ πολλούς} \\
+  \PriestGR\ Αἰωνία σας ἡ μνήμη, ἀξιομακάριστοι καὶ ἀείμνηστοι ἀδελφοί ἡμῶν)
+\end{englishgreek}
+
+\begin{center}
+  ETERNAL MEMORY HYMN
+\end{center}
+\begin{englishgreek}{
+    \People\  Eternal be his (her, their) memory. Eternal be his (her, their) memory. May his (her, their) memory be eternal. (3)
+  }
+  \PeopleGR\ Αἰωνία ἡ μνήμη, αἰωνία ἡ μνήμη, αἰωνία αὐτοῦ (αὐτῆς, αὐτῶν), ἡ μνήμη. (γ΄)
+\end{englishgreek}
+\begin{englishgreek}{
+    \Priest\  Through the prayers of our holy Fathers, Lord Jesus Christ, our God, have mercy on us and save us.
+  }
+  \PriestGR\ Δι’ εὐχῶν τῶν ἁγίων Πατέρων ἡμῶν, Κύριε Ἰησοῦ Χριστέ, ὁ Θεὸς ἡμῶν, ἐλέησον καὶ σῶσον ἡμᾶς.
+\end{englishgreek}
+
+\begin{englishgreek}{
+    \People\  Amen.
+  }
+  \PeopleGR\ Ἀμήν.
 \end{englishgreek}
 
 \end{document}
