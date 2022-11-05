@@ -1,0 +1,11 @@
+** Usage
+
+Input file is =memorial-service.lytex=; output file is =memorial-service.pdf=.
+
+Build with:
+
+#+begin_example
+$ bmake memorial-service.pdf
+#+end_example
+
+=bmake= is BSD make (not GNU make).
